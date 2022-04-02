@@ -41,12 +41,12 @@ export {
   onAuthStateChanged,
   signInWithEmailAndPassword,
   signOut,
+  db,
   collection,
   doc,
   onSnapshot,
   setDoc,
   getDocs,
   updateDoc,
-  where,
-  db
+  where
 };

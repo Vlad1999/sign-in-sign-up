@@ -13,7 +13,7 @@ export default function Navigation() {
   return (
     <nav>
       <Link to="/home">Home</Link> | {" "}
-      <Link to="/">Products</Link> | {" "}
+      <Link to="/products">Products</Link> | {" "}
       <Link to="/">Favorites</Link> | {links}
     </nav>
   );
